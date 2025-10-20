@@ -1,0 +1,71 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.egg
+*.egg-info/
+*.manifest
+*.spec
+
+# ---- Virtual environments ----
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# ---- Packages / Dependencies ----
+*.egg-info/
+dist/
+build/
+pip-wheel-metadata/
+
+# ---- IDEs / Editors ----
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# ---- OS Files ----
+.DS_Store
+Thumbs.db
+
+# ---- Logs / Temp ----
+*.log
+*.tmp
+*.temp
+*.bak
+
+# ---- Secrets / Config ----
+.envrc
+.env.local
+config.json
+credentials.json
+token.json
+
+# ---- PyInstaller ----
+*.manifest
+*.spec
+
+# ---- Test / Coverage ----
+.coverage
+.tox/
+.nox/
+.pytest_cache/
+htmlcov/
+.cache/
+
+# ---- Jupyter Notebooks ----
+.ipynb_checkpoints
+
+# ---- MyPy / Type Checker ----
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# ---- VS Code Dev Containers ----
+.devcontainer/
